@@ -1446,11 +1446,7 @@ textarea::placeholder {
   margin-right: 0px;
 }
 
-.menu__hide {
-  left: -800px;
-  -webkit-transition: all 1s;
-  transition: all 1s;
-}
+
 
 .request__title {
   color: white;
@@ -1481,6 +1477,11 @@ textarea::placeholder {
     padding-bottom: 10px;
      left: 0;
   }
+  .menu__hide {
+  left: -800px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
   .menu__list li {
     margin-right: 0;
     margin-bottom: 40px;
