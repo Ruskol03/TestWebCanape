@@ -84,3 +84,10 @@ for (let i = 0; i < 5; i += 1) {
         windows[i].querySelector(".kinds-over").classList.add("first_kinds");
     })
 }
+let burger = document.querySelector(".menu__media_item2");
+let menu = document.querySelector(".menu__list");
+burger.addEventListener("click", () => {
+    menu.classList.toggle("menu__hide");
+
+
+})
